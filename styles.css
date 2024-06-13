@@ -51,9 +51,7 @@ hr {
 
 .letter-bank {
     display: flex;
-    position: absolute;
-    right: 20%;
-    top: 20%;
+    position: relative;
 }
 
 button {
