@@ -1,9 +1,9 @@
 /*
 CONST VARIABLES
-const STRIKE_LIMIT = 3; // num of wrong answers allowed
+const STRIKE_LIMIT = 8; // num of wrong answers allowed
 let tries = 0; // counts up  with each wrong answer
 */
-const STRIKE_LIMIT = 7
+const STRIKE_LIMIT = 10
 let tries = 0
 let word = ""
 const letterSpaces = []
@@ -15,16 +15,25 @@ OBJECTS
 */
 const wordGenerator = {
     bank: [
-        'APPLE',
-        'BOTTLE',
-        'WELL',
-        'BUILDING',
-        'PAINTING',
-        'AIRPLANE',
-        'QUAIL',
-        'BUTTERFLY',
-        'PIZZA',
-        'LLAMA'
+        'WOODY',
+        'LIBRARY',
+        'VILLAGE',
+        'BUSINESS',
+        'SKATEBOARD',
+        'STEPS',
+        'STRAWBERRY',
+        'CHEMISTRY',
+        'JUMPROPE',
+        'FRISBEE',
+        'MALIBU',
+        'DONUT',
+        'CIRCLE',
+        'FLASHBANG',
+        'STACKS',
+        'PILATES',
+        'TENNIS',
+        'MONITOR',
+        'RELIABLE'
     ],
     randomWord() {
         let randomIdx = Math.floor(Math.random() * this.bank.length)
