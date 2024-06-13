@@ -2,7 +2,7 @@
 
 ![Spaceman Logo](spacemanlogo.png)
 
-Play Spaceman! A player has 10 tries to fill in the blank of a random word!
+Play Spaceman! A player has 10 tries to fill in the blank of a random space-themed word!
 
 Technologies Used:
 - Javascript

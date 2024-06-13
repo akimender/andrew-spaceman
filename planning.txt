@@ -1,0 +1,32 @@
+/*
+CONST/LET VARIABLES
+- const variable for number of tries allowed
+- string variable containing word
+- array variable containing letters of word as html elements
+- array variable containing tried but incorrect letters by player
+- boolean variable controlling whether keyboard is on
+*/
+
+/*
+OBJECTS
+- object containing word bank for space-themed words
+*/
+
+
+/*
+EVENT LISTENERS
+- listen for 'click' by a alphabetical key button
+*/
+
+/*
+FUNCTIONS
+- changeColor(id, color): updates the color of a button from gray to corresponding color (green/red), makes button unclickable
+- endGame(result): changes the webpage to a victory/defeat screen with a retry button
+- initializeGame(): start a new game
+- endScreen(result): show an end game screen depending on win/loss logic
+- flipLetter(idx): flip an empty space with corresponding letter
+
+** function handling game logic **
+-- checks if player input character is in the word
+-- updates gamepage accordingly
+*/
