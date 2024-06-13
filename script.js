@@ -15,25 +15,16 @@ OBJECTS
 */
 const wordGenerator = {
     bank: [
-        'WOODY',
-        'LIBRARY',
-        'VILLAGE',
-        'BUSINESS',
-        'SKATEBOARD',
-        'STEPS',
-        'STRAWBERRY',
-        'CHEMISTRY',
-        'JUMPROPE',
-        'FRISBEE',
-        'MALIBU',
-        'DONUT',
-        'CIRCLE',
-        'FLASHBANG',
-        'STACKS',
-        'PILATES',
-        'TENNIS',
-        'MONITOR',
-        'RELIABLE'
+        'GALAXY',
+        'UNIVERSE',
+        'STAR',
+        'EARTH',
+        'COMET',
+        'GRAVITY',
+        'ROCKET',
+        'ORBIT',
+        'PLANET',
+        'SUN'
     ],
     randomWord() {
         let randomIdx = Math.floor(Math.random() * this.bank.length)
