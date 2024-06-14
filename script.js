@@ -1,6 +1,6 @@
 /*
 CONST VARIABLES
-const STRIKE_LIMIT = 8; // num of wrong answers allowed
+const STRIKE_LIMIT = 10; // num of wrong answers allowed
 let tries = 0; // counts up  with each wrong answer
 */
 const STRIKE_LIMIT = 10
@@ -134,8 +134,6 @@ function endGame() {
         const letterSpace = document.getElementById(`${i}`)
         document.getElementById("word-container").removeChild(letterSpace)
         letterSpaces.pop()
-    }
-    for (let i = 0; i < incorrectLetters.length; i++) {
     }
     word = ""
     document.getElementById("incorrect-letters").remove()
